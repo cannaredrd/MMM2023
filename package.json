@@ -4,7 +4,7 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "description": "A simple layout animation where the thumbnails of a menu row animate to their position in a content preview grid using GSAP's Flip plugin.",
   "scripts": {
-    "start": "parcel src/index.html --open",
+    "start": "parcel serve src/index.html",
     "clean": "rm -rf dist/*",
     "build:parcel": "parcel build src/index.html --no-content-hash --no-source-maps --public-url ./",
     "build": "npm run clean && npm run build:parcel"
